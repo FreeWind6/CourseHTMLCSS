@@ -1,68 +1,190 @@
-.links {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-body {
+html {
     font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
 
-.parag {
-    font-size: 16px;
-    line-height: 26px;
-    color: #1F3F68;
-    width: 359px;
+.conteiner, .conteiner-contakts {
+    /*border: 1px solid #000;*/
+    /*border-color: red;*/
+}
 
+.content, .header, .header-content, .what-we-do, .models, .classic, .retro, .neo-classic, .end, .conteiner-f, 
+.top, .noiz, .border, .prava, .header-contarts, .us, .forma, .adress, .messenge, .map {
+    /*border: 1px solid #000;*/
 }
 
 .content {
-    flex-grow: 1;
-    flex-basis: 200px;
-    list-style-type: none;
+    border-color: blue;
+    height: 600px;
+    margin-left: 100px;
+    margin-right: 50px;  
 }
 
-.address {
+.header {
+    border-color: green;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: 20px;
 }
 
-.paragDown {
+.header-content {
+    border-color: darkgoldenrod;
+    width: 510px;       
+}
+
+.what-we-do {
+    border-color: tomato;
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 50px;    
+}
+
+.models {
+    border-color: darkorchid;
+    display: flex;
+    justify-content: space-between;
+}
+.classic {
+    border-color: gold;
+    width: 359px;
+}
+
+.retro {
+    border-color: gold;
+    width: 359px;
+}
+
+.neo-classic {
+    border-color: gold;
+    width: 359px;
+}
+
+.end {
+    border-color: hotpink;
+    margin-top: 5px;
+    margin-left: 100px;
+    margin-right: 50px;    
+}
+
+.conteiner-f {
+    border-color: red;
+    margin-top: 25px;
+    /*background-color: royalblue;*/
+}
+
+.top {
+    border-color: white;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+
+.noiz {
+    border-color: white;
+    width: 495px;
+}
+
+.border {
+    border-color: white;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+
+.info {
+    list-style-type: none;
+    padding: 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.prava {
+    border-color: white;
+    margin-bottom: 20px;
+}
+
+.header-contarts {
+    border-color: green;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 50px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+/*.us {
+    !*border-color: blue;*!
+    background: url(img\geekBrains.png);
+    background-size: 100%;
+}*/
+
+.forma {
+    border-color: green;
+    margin-left: 100px;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.adress {
+    border-color: violet;
+}
+
+.messenge {
+    border-color: violet;
+}
+
+.map {
+    border-color: yellow;
+}
+
+.text-header {
     width: 425px;
-}
-
-.h1 {
-    font-size: 64px;
+    font-size: 16px;
+    line-height: 26px;
     color: #1F3F68;
-    width: 510px;
+}
+.other-text {
+    font-size: 16px;
+    line-height: 26px;
+    color: #1F3F68;
 }
 
-.h2 {
+.bl1 {
+    font-size: 64px;
+    width: 510px;
+    color: #1F3F68;
+}
+
+
+.bl2 {
     font-weight: 500;
     font-size: 44px;
     text-align: center;
 }
 
-.h3 {
+.bl3 {
     font-size: 36px;
     text-align: center;
 }
 
-.h4 {
+.bl4 {
     font-size: 20px;
     line-height: 30px;
     color: #1F3F68;
-    width: 359px;
 }
 
-.inputAndTextarea {
+.fo {
     border: 1px solid #356EAD;
     box-sizing: border-box;
     border-radius: 10px;
     opacity: 0.4;
 }
 
-.submitButton {
+.otp {
     background: #5A98D0;
     box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
     border-radius: 10px;
@@ -72,8 +194,4 @@ body {
     text-align: center;
     color: #FFFFFF;
     text-transform: uppercase;
-}
-
-.basement {
-    text-align: center;
 }
