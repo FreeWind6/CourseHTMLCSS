@@ -1,79 +1,241 @@
-.links {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-body {
+html {
     font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
 
-.parag {
-    font-size: 16px;
-    line-height: 26px;
-    color: #1F3F68;
-    width: 359px;
+.conteiner, .conteiner-contakts {
+    /*border: 1px solid #000;*/
+    /*border-color: red;*/
+}
 
+.content, .header, .header-content, .what-we-do, .models, .classic, .retro, .neo-classic, .end, .conteiner-f,
+.top, .noiz, .border, .prava, .header-contarts, .us, .forma, .adress, .messenge, .map {
+    /*border: 1px solid #000;*/
+}
+
+.top-contact {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    flex-grow: 1;
+    background-image: url(/img/top-image.png);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .content {
-    flex-grow: 1;
-    flex-basis: 200px;
-    list-style-type: none;
+    border-color: blue;
+    height: 600px;
+    margin-left: 100px;
+    margin-right: 50px;
 }
 
-.address {
+.header {
+    border-color: green;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: 20px;
 }
 
-.paragDown {
-    width: 425px;
-}
-
-.h1 {
-    font-size: 64px;
-    color: #1F3F68;
+.header-content {
+    border-color: darkgoldenrod;
     width: 510px;
 }
 
-.h2 {
+.what-we-do {
+    border-color: tomato;
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+
+.models {
+    border-color: darkorchid;
+    display: flex;
+    justify-content: space-between;
+}
+
+.classic {
+    border-color: gold;
+    width: 359px;
+}
+
+.retro {
+    border-color: gold;
+    width: 359px;
+}
+
+.neo-classic {
+    border-color: gold;
+    width: 359px;
+}
+
+.end {
+    border-color: hotpink;
+    margin-top: 5px;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+
+.conteiner-f {
+    border-color: red;
+    margin-top: 25px;
+    background: #316099;
+    /*background-color: royalblue;*/
+}
+
+.top {
+    border-color: white;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+
+.noiz {
+    border-color: white;
+    width: 495px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.border {
+    border-color: white;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+
+.info {
+    list-style-type: none;
+    padding: 0px;
+    display: flex;
+    justify-content: space-around;
+
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.prava {
+    border-color: white;
+    margin-bottom: 20px;
+}
+
+.header-contarts {
+    border-color: green;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 50px;
+    padding-top: 42px;
+    margin-bottom: 20px;
+}
+
+/*.us {
+    !*border-color: blue;*!
+    background: url(img\geekBrains.png);
+    background-size: 100%;
+}*/
+
+.forma {
+    border-color: green;
+    margin-left: 100px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.adress {
+    border-color: violet;
+}
+
+.text-none{
+    list-style-type: none;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+}
+
+.messeng {
+    border-color: violet;
+    background: #FFFFFF;
+    box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+}
+
+.map {
+    border-color: yellow;
+}
+
+.text-header {
+    width: 425px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #1F3F68;
+}
+
+.other-text {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.6;
+    margin-bottom: 50px;
+}
+
+.bl1 {
+    font-size: 64px;
+    width: 510px;
+    color: #1F3F68;
+}
+
+
+.bl2 {
     font-weight: 500;
     font-size: 44px;
     text-align: center;
 }
 
-.h3 {
+.bl3 {
     font-size: 36px;
     text-align: center;
 }
 
-.h4 {
+.bl4 {
     font-size: 20px;
     line-height: 30px;
     color: #1F3F68;
-    width: 359px;
 }
 
-.inputAndTextarea {
-    border: 1px solid #356EAD;
+.fo {
+    margin-top: 10px;
     box-sizing: border-box;
     border-radius: 10px;
+    width: 500px;
     opacity: 0.4;
+    border: 1px solid #356EAD;
+    height: 50px;
 }
 
-.submitButton {
-    background: #5A98D0;
-    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+.otp {
     border-radius: 10px;
-    font-weight: 500;
+    width: 500px;
+    /*font-weight: 500px;*/
     font-size: 16px;
     line-height: 26px;
     text-align: center;
     color: #FFFFFF;
     text-transform: uppercase;
+    background: #5A98D0;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
 }
 
-.basement {
-    text-align: center;
+.messeng_in {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
