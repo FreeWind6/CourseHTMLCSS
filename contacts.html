@@ -4,94 +4,112 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie-edge">
-    <link rel="stylesheet" href="style/style.css">
-    <title>Lesson-GB</title>
+    <title>Интернет-магазин</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900">
 </head>
 
 <body>
-<div class="conteiner-contakts">
-    <div class="header-contarts">
-        <a href="index.html"><img src="img/logo.svg" alt="logo"></a>
-        <a href="contacts.html"><img src="img/contact.svg" alt="logo"></a>
-    </div>
-    <div class="us top-contact">
-        <h2 class="bl2">Contact Us</h2>
-        <p style="font-size: 16px; line-height: 26px; color: #1F3F68; text-align: center;">Lorem ipsum dolor sit amet,
-            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-    </div>
-    <div class="forma">
-        <div class="adress">
-            <img src="img/group.png" alt="logo">
-            <h4 class="bl4">Address</h4>
-            <p class="other-text">Москва, ул. Калинина, д.29 </p>
-            <h4 class="bl4">Phone</h4>
-            <ul class="text-none">
-                <li><img src="img/phone.svg" alt="world" style="width: 15px;"> +795555555</li>
-                <br>
-                <li><img src="img/phone.svg" alt="world" style="width: 15px;"> +795555556</li>
-            </ul>
-            <h4 class="bl4">Online service</h4>
-            <ul class="text-none">
-                <li><img src="img/world.svg" alt="world" style="width: 15px;"> <a href="http://www.vk.com"
-                                                                                  target="_blank">vk.com</a></li>
-                <br>
-                <li><img src="img/email.svg" alt="world" style="width: 15px;"> <a href="mailto:mail@mail.ru">e-mail</a>
+    <header>
+        <div class="contacts-container">
+            <ul class="header">
+                <li><a href="index.html"><img src="images/logo.svg" alt="Логотип"></a></li>
+                <li><a href="contacts.html"><img src="images/contacts.svg" alt="Контакты"></a>
                 </li>
             </ul>
         </div>
-        <div class="messeng">
-            <div class="messeng_in">
-                <h4 class="bl4">Send us message</h4>
-                <form action="URL">
-                    Full Name <br><input class="fo" type="text" placeholder=" Ваше Имя"> <br><br>
-                    Email <br><input class="fo" type="email" placeholder=" Ivan@mail.ru"> <br><br>
-                    Message <br>
-                    <textarea class="fo" name="" id="" cols="30" rows="5" style="height: 100px">Сообщение</textarea>
-                    <br><br>
-                    <button class="otp" type="submit">Submit</button>
-                    <br>
-                </form>
+    </header>
+    <div class="contacts-header">
+        <h2 class="heading-contacts">Contact us</h2>
+        <p class="contact-us-text text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            tempor incididunt ut
+            labore et dolore magna aliqua.</p>
+    </div>
+    <main class="contacts-container">
+        <form action="#" class="main">
+            <div class="contact-info">
+                <img class="contact-info__image" src="images/contact-info.svg" alt="Способы связи">
+                <div class="contact-info__text">
+                    <h4 class="main__heading">Address</h4>
+                    <p class="text contact-info-text">Id convallis placerat sit sed duis id amet volutpat quam a,
+                        pharetra.
+                    </p>
+                </div>
+                <div class="contact-info__text">
+                    <h4 class="main__heading">Phone</h4>
+                    <ul class="phone-list contacts-list contact-info-text">
+                        <li><a class="phone-link" href="tel:+781273134321">+7-812-7313-4321</a></li>
+                        <li><a class="phone-link" href="tel:+781700001234">+7-817-0000-1234</a></li>
+                    </ul>
+                </div>
+                <div class="contact-info__text">
+                    <h4 class="main__heading">Online service</h4>
+                    <ul class="contacts-list contact-info-text">
+                        <li class="web-icon"><a class="online-service-link" href="index.html">www.site.com</a></li>
+                        <li class="mail-icon"><a class="online-service-link"
+                                href="mailto:mail@mail.ru">hello.site@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="form">
+                <h4 class="main__heading form__main-heading-style">Send us message</h4>
+                <label>
+                    <h3 class="form-heading">Full name</h3> <input class="input-style" type="name"
+                        placeholder="Johny D.">
+                </label>
+                <label>
+                    <h3 class="form-heading">E-mail</h3> <input class="input-style" type="email"
+                        placeholder="mail@mail.mail">
+                </label>
+                <label>
+                    <h3 class="form-heading">Message</h3>
+                    <textarea class="input-style message-text-area" name="message" placeholder="Your Message" cols="30"
+                        rows="5"></textarea>
+                </label>
+                <button class="button-style" type="submit">Submit</button>
+            </div>
+        </form>
+    </main>
+    <div class="map contacts-container">
+        <script type="text/javascript" charset="utf-8" async
+            src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ab9a41663c45045ccfcebf6b0f0d655e5bdfbcaf9821b50ada7df0d448c3968fc&amp;width=100%&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+    </div>
+    <div class="footer">
+        <div class="footer__top container">
+            <div class="footer-text">
+                <h3 class="heading bottom__heading">Interested to work
+                    with our team?</h3>
+                <p class="text text-footer">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                    eiusmod
+                    tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+            </div>
+            <div class="footer__button"><a class="footer__button-text" href="#">Let's talk</a></div>
+        </div>
+        <hr>
+        <div class="footer__bottom container">
+            <ul class="footer__info">
+                <li class="footer__info-item">
+                    <p class="marker">A.</p>
+                    <p class="footer__info-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </li>
+                <li class="footer__info-item">
+                    <p class="marker">T.</p>
+                    <p class="footer__info-item-text"><a class="footer__info-item-link"
+                            href="tel:+7(495)123-45-67">+7-812-7313-4321</a></p>
+                </li>
+                <li class="footer__info-item">
+                    <p class="marker">E.</p>
+                    <p class="footer__info-item-text"><a class="footer__info-item-link"
+                            href="mailto:mail@mail.ru">hello.site@gmail.com</a></p>
+                </li>
+            </ul>
+            <div class="footer__copy">
+                <p class="text copyright-text">2020 &copy; All rights reserved.</p>
             </div>
         </div>
     </div>
-    <div class="map">
-        <!--    Google maps-->
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2242.8028223497236!2d37.534592415923775!3d55.79666168056508!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b549c0ac2b5af5%3A0x4b7a44fd7798fe69!2sGeekBrains!5e0!3m2!1sru!2sru!4v1594318366261!5m2!1sru!2sru"
-                width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
-                tabindex="0">
-        </iframe>
-    </div>
-</div>
 </body>
 
-<footer>
-    <div class="conteiner-f">
-        <div class="top">
-            <div class="noiz">
-                <div class="noiz_left">
-                    <h3 style="font-size: 36px; width: 340px; text-align: left; font-style: normal;font-weight: normal;line-height: 46px;letter-spacing: 0.05em;color: #FFFFFF;">
-                        Intersted to woek
-                        with our team?</h3>
-                    <p class="other-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor
-                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                </div>
-                <div class="noiz_right">
-                </div>
-            </div>
-        </div>
-        <hr style="margin: 0">
-        <div class="border">
-            <ul class="info">
-                <li>Lorem ipsum dolor sit amet</li>
-                <li>+795555555</li>
-                <li>mail@mail.ru</li>
-            </ul>
-            <div class="prava">
-                <p class="other-text">&laquo;Все права защищены &copy&raquo;</p>
-            </div>
-        </div>
-    </div>
-</footer>
 </html>
